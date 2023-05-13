@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Shop Homepage - Start Bootstrap Template</title>
+    <title>dettagli</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -64,13 +64,12 @@
                             <div class="text-center">
                                 <!-- Product name-->
                                 <h5 class="fw-bolder">{{$destinazione['city']}}</h5>
-                                <!-- Product price-->
-                                $1800
+
                             </div>
                         </div>
                         <!-- Product actions-->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                            <div class="text-center"><a href="{{route('dettagli',['ref'=>$destinazione['company']])}}" class="btn btn-outline-dark mt-auto" href="#">dettagli</a></div>
                         </div>
                     </div>
 
@@ -86,13 +85,11 @@
                             <div class="text-center">
                                 <!-- Product name-->
                                 <h5 class="fw-bolder">{{$destinazione['city']}}</h5>
-                                <!-- Product price-->
-                                $1800
                             </div>
                         </div>
                         <!-- Product actions-->
                         <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                            <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                        <div class="text-center"><a href="{{route('dettagli',['ref'=>$destinazione['company']])}}" class="btn btn-outline-dark mt-auto" href="#">dettagli</a></div>
                         </div>
                     </div>
 

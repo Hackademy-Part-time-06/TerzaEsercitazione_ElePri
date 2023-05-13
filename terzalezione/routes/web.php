@@ -14,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/chi-siamo', [PageController::class, 'about'])->name('about');
-//Route::get('/singolo-mese/{ref}', [PageController::class, 'dettaglio'])->name('detail');
 
 Route::get('/homepage', [Homepage::class , 'homepage'])->name('homepage');
-Route::get('/posti', [Homepage::class , 'detail'])->name('dettagli');
+Route::get('/dettagli/{ref}', [Homepage::class , 'detail'])->name('dettagli');
