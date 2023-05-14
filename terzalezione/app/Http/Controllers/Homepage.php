@@ -148,5 +148,5 @@ class Homepage extends Controller
                 ],
             ],
         ];
-        return view('about', ['travel' => $flights]);
+        return view('dettagli', ['travel' => $flights]);
 }};
